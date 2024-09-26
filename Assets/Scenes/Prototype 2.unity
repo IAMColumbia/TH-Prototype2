@@ -227,7 +227,6 @@ GameObject:
   - component: {fileID: 425805627}
   - component: {fileID: 425805630}
   - component: {fileID: 425805629}
-  - component: {fileID: 425805631}
   m_Layer: 0
   m_Name: Right Border
   m_TagString: Untagged
@@ -300,19 +299,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 425805626}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &425805631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425805626}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f18ad248bb17184a9395df23347603a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 40
 --- !u!1 &475985833
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,7 +908,7 @@ SceneRoots:
   - {fileID: 170076735}
   - {fileID: 992285706}
   - {fileID: 1959334252}
+  - {fileID: 261634766793454734}
   - {fileID: 2311859519223961296}
   - {fileID: 3356830296909270341}
   - {fileID: 838349192756496533}
-  - {fileID: 261634766793454734}
