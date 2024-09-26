@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     //makes the code clean by having only one x input
     public float xRange = 10.0f;
 
+    public GameObject projectilePrefab;
+
     // Start is called before the first frame update
     void Start()
     {
