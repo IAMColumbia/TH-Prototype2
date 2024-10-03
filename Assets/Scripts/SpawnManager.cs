@@ -19,9 +19,9 @@ public class SpawnManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
- 
+
     }
-    void SpawnRandomAnimal() 
+    void SpawnRandomAnimal()
     {
         // Randomly generate animal index and spawn position
         Vector3 spawnPos = new Vector3(Random.Range(-spawnRangeX, spawnRangeX), 0, spawnPosZ);
